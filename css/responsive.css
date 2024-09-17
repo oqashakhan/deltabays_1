@@ -62,7 +62,7 @@
     }
     .hero-box {
         padding: 50px;
-        height: auto;
+        max-height: 50vh;
     }
     .hero-box img{
         width: 80%;
@@ -90,8 +90,12 @@
     .search-box{
         width: 90%;
     }
+    .hero-con{
+        padding: 20px 10pxgiit ;
+    }
     .hero-box {
         padding: 40px 20px;
+        
     }
     .hero-box button{
         font-size: 15px;
