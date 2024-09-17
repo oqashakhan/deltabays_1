@@ -91,12 +91,14 @@
         width: 90%;
     }
     .hero-con{
-        padding: 20px 10pxgiit ;
+        padding: 20px 10px;
     }
     .hero-box {
         padding: 40px 20px;
         
+
     }
+    
     .hero-box button{
         font-size: 15px;
         margin: 5px
