@@ -119,6 +119,7 @@
     }
     .category{
         padding: 40px 10px;
+        gap: 10px;
     }
     
     .hero-box button{
@@ -158,6 +159,12 @@
         right: 0;
         bottom: 0;
         object-fit: contain;    
+    }
+    .c-card{
+        padding: 40px 20px;
+    }
+    .c-card-2{
+        height: auto;
     }
 }
   
