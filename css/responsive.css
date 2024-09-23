@@ -202,3 +202,30 @@
     }
   
 }
+
+
+
+@media (max-width:1000px) {
+    
+    .ser-card{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+       padding: 15px 0;
+    }
+ 
+}
+@media (max-width:550px) {
+    .ser-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .ser-text h2{
+          font-size: 15px;
+    }
+    .ser-text h3{
+          font-size: 12px;
+    }
+}

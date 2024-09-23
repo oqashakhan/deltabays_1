@@ -329,7 +329,43 @@ nav li:hover {
 .c-card-3 button{
     background:white;
     color: #fd3943;
+    
+    
 }
 
 
 /* =============== category  enddddddddddd============= */
+
+
+/* =============== services startttttttttttttt============= */
+.services{
+    width: 100%;
+    background: transparent;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+.ser-card{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ser-img img{
+    height: 30px;
+}
+.ser-text h2{
+     font-size: 18px;
+     font-weight: 700;
+}
+.ser-text h3{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* =============== services   enddddddddddd============= */
