@@ -23,6 +23,11 @@
     .c-card-3 h1{ 
        font-size: 4vw;
     }
+
+    .product-con{
+        padding: 40px 10px;
+       
+    }
 }
 @media (max-width:950px) {
      
@@ -45,6 +50,9 @@
         font-size: 6vw;
         line-height: 60px;
         
+    }
+    .product{
+        width: 30%;
     }
 }
 @media (max-width:850px) {
@@ -125,13 +133,12 @@
     .off-card img{
       
         height: 300px;
-        width: 100%;
+       width: 60%;
         position: relative;
         transform: translateY(0px);
         top: 0;
         left: 0;
-        object-fit:cover;
-        transform: translateY(-20px);
+        transform: translateY(0px);
 
 
 
@@ -219,6 +226,9 @@
     .c-card-2{
         height: auto;
     }
+
+
+    
 }
   
 
@@ -276,5 +286,28 @@
     }
     .ser-text h3{
           font-size: 12px;
+    }
+    .product-title h1{
+        font-size: 30px;
+
+    }
+    .product-title p{
+        font-size: 15px;
+
+    }
+    .product-title{
+        text-align: center;
+    }
+}
+
+@media (max-width:650px) {
+    
+    .product{
+        width: 40%;
+    }
+}
+@media (max-width:500px) {
+    .product{
+        width: 90%;
     }
 }

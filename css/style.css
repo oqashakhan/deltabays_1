@@ -419,13 +419,84 @@ nav li:hover {
 .off-card img {
   position: absolute;
   top: -80px;
-  left: 10%;
+  left: 20%;
   object-fit: fill;
- height: 600px; 
- width: 70%;
+ height: 400px; 
+width: 500px;
  transform: translateY(-100px);
-
+ pointer-events: none;
 }
 
 
 /* =============== offf   enddddddddddd============= */
+
+
+
+/* =============== product starttttttttttttt============= */
+.product-title{
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product-title h1{
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.product-con{
+    width: 100%;
+    height: auto;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    flex-wrap: wrap;
+}
+.product{
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.356);
+    cursor: pointer;
+   
+}
+.product:hover{
+    transform: scale(1.1);
+}
+.product img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product p {
+    padding:  0 10px;
+}
+.product-desc{
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.product-desc button{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    box-shadow: 0 0 7px rgb(128, 128, 128);
+    background: #fa464f;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.product-desc button:hover{
+    transform: scale(0.9);
+}
+
+/* =============== product   enddddddddddd============= */
