@@ -83,7 +83,7 @@
     }
     .hero-box {
         padding: 50px;
-        max-height: 50vh;
+        height: auto; 
     }
     .hero-box img{
         width: 80%;
@@ -94,6 +94,55 @@
     }
     .hero-box button{
         padding: 5px 10px;
+    }
+
+
+    /* off responsive */
+    .off{
+       padding: 30px 10px;
+
+    }
+    .off-card{
+        flex-direction: column;
+        text-align: center;
+        
+        
+        
+    }
+    .off-left{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .off-left h1 , .off-right h2{
+        font-size: 40px;
+        opacity: 1;
+    }
+    .off-right{
+        width: 100%;
+        padding: 0;
+    }
+    .off-card img{
+      
+        height: 300px;
+        width: 100%;
+        position: relative;
+        transform: translateY(0px);
+        top: 0;
+        left: 0;
+        object-fit:cover;
+        transform: translateY(-20px);
+
+
+
+    }
+    .off-left h1{
+        width: 100%;
+    }
+    .off-card{
+        justify-content: center;
+        align-items: center;
+        padding: 30px 10px;
     }
 }
 @media (max-width:500px){

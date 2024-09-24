@@ -56,7 +56,7 @@ nav a {
 }
 
 .nav-logo img {
-    height: 30px;
+    height: 50px;
 }
 
 .nav-icon {
@@ -250,6 +250,7 @@ nav li:hover {
     height: 50vh;
     color: white;
     position: relative;
+    height: auto;
     padding-top: 100px;
 }
 .c-card h3{
@@ -369,3 +370,62 @@ nav li:hover {
 
 
 /* =============== services   enddddddddddd============= */
+
+
+/* =============== offf starttttttt============= */
+
+.off{
+    padding: 100px 30px;
+    width: 100%;
+    
+ 
+}
+.off-card{
+    height: auto;
+    width: 100%;
+    padding: 50px 40px;
+    border-radius: 12px;
+    background: linear-gradient(-120deg,	#fa464f,	#fd3943);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.off-left{
+    width: 60%;
+    height: 100%;
+}
+.off-right{
+    width: 40%;
+    height: 100%;
+}
+.off-left  h4 ,.off-right h4{
+    font-weight: 400;
+}
+.off-left h1{
+    font-weight: 900;
+    font-size: 7vw;
+    opacity: 0.8;
+    width: 300px;
+    line-height: 90px;
+
+}
+.off-right h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.off-card img {
+  position: absolute;
+  top: -80px;
+  left: 10%;
+  object-fit: fill;
+ height: 600px; 
+ width: 70%;
+ transform: translateY(-100px);
+
+}
+
+
+/* =============== offf   enddddddddddd============= */
