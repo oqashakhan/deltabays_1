@@ -7,7 +7,7 @@
         gap: 12px;
     }
     .nav-logo img{
-        height: 20px;
+        height: 50px;
     }
     .nav-icon{
         gap: 10px;
@@ -170,6 +170,9 @@
     nav{
         padding: 0 10px;
     }
+    .nav-logo img{
+        height: 40px;
+    }
     .nav-icon button{
         display: none;
     }
@@ -247,7 +250,7 @@
 
 @media (max-width:350px){
     .nav-logo img{
-        height: 17px;
+        height: 30px;
     }
     .hero-box {
         padding: 30px 10px;
