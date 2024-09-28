@@ -188,9 +188,10 @@
     }
     .hero-box {
         padding: 50px 20px;
-        height: auto;
+        height: 60vh;
 
     }
+   
     .category{
         padding: 40px 10px;
         gap: 10px;
@@ -198,7 +199,7 @@
     
     .hero-box button{
         font-size: 15px;
-        margin: 5px
+        margin-top: 20px
     }
     
     .hero-box h3{
@@ -212,10 +213,10 @@
         font-size: 13vw;
     }
     .hero-box img{
-        width: 100%;
+        width: 90%;
         height: 100%;
        object-fit: fill;
-      
+       right: 0;
        bottom: 0%;
       
     }
