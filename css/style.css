@@ -48,6 +48,7 @@ nav ul {
 }
 
 nav a {
+    position: relative;
     text-transform: capitalize;
     font-size: 20px;
     cursor: pointer;
@@ -759,3 +760,22 @@ footer {
 
 
 /* footer endddddddddddddd */
+.page-d{
+  height: 30vh;
+  width: 100%;
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page-d h3{
+    font-weight: 400;
+}
+.page-d a{
+    color: black;
+   
+    padding-right:5px;
+}
+
+/* page cssssssssssss */

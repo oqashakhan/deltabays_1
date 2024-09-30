@@ -1,39 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Color Toggle</title>
-    <style>
-        .red {
-            background-color: red;
-        }
-        .green {
-            background-color: green;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- fave icon -->
+   <link rel="shortcut icon" href="./image/icon.png" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- icon -->
+
+  <!-- Google fonts End -->
+
+  <!-- custon style Sheet & JavaScript -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <script src="js/index.js" defer></script>
+  <!-- custon style Sheet & JavaScript -->
+  <title> SHOP | Deltabay </title>
 </head>
+
 <body>
 
-    <button id="toggleButton" class="green">Click Me!</button>
 
-    <script >
-document.getElementById('toggleButton').addEventListener('click', function () {
-    let button = this;
 
-    if (button.classList.contains('show')) {
-        button.classList.remove('show');
-        button.classList.remove('red');
-        button.classList.add('green');
-        button.innerText = 'Click to Turn Red';
-    } else {
-        button.classList.add('show');
-        button.classList.remove('green');
-        button.classList.add('red');
-        button.innerText = 'Click to Turn Green';
-    }
-});
+  
+  <!-- nav startttttttttttttttttttt -->
+  <nav>
+    <div class="nav-left">
+      <div class="nav-logo">
+        <img src="./image/Blue_and_White_Modern_Company_Logo-removebg-preview.png" alt="">
+      </div>
+      <ul id="nav">
+        <li ><a class="active" href="index.html">home</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="about.html">about </a></li>
+        <li><a href="blog.html">blogs</a></li>
+        <li><a href="contactus.html">contact</a></li>
+      </ul>
+    </div>
+    <div class="nav-icon">
+      <button><a href="./login.html">login</a></button>
+      <i id="search-i" class="bi bi-search"></i>
+      <i class="bi bi-bag-plus-fill"></i>
+      <div> <i id="hamburger" class="bi bi-list-nested "></i></div>
+    </div>
 
-    </script>
+
+
+
+  </nav>
+
+  <!-- nav endddddddddddddddddddddd -->
+
+
+<!-- page titleee -->
+<section class="page-d">
+  <h3><a href="index.html"> home  </a> > shop</h3>
+  <h1>shop</h1>
+</section>
+
+<!-- page titleee enddddddd -->
+
+<div class="about-con">
+  
+</div>
+
+
+
+
+
+
+
+  
+
+  <!-- footer starttttttttttttttt -->
+  <footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <img src="./image/Blue_and_White_Modern_Company_Logo-removebg-preview.png" alt="">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have...</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <h3>Contact</h3>
+            <p>+99 (0) 101 0000 888</p>
+            <p>Patricia C. Amedee 4401</p>
+            <p>Waldeck Street Grapevine</p>
+            <p>Nashville, Tx 76051</p>
+        </div>
+
+        <div class="footer-subscribe">
+            <h3>Subscribe To Our Email</h3>
+            <p>For Latest News & Updates</p>
+            <form>
+                <input type="email" placeholder="Enter Your Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+      <p>&copy; 2022 eStore. All rights reserved.</p>
+       <div> <a href="#">Privacy Policy</a> . <a href="#">Terms & Conditions</a></div>
+  </div>
+
+
+
+  <!-- footer endddddddddddddddd -->
+
 </body>
+
+
 </html>
