@@ -1,0 +1,136 @@
+.contact-con{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-form{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top:50px;
+}
+
+.map{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+
+}
+.map img{
+    height: 80%;
+    width: 80%;
+    filter: drop-shadow(5px 5px 16px rgba(0, 0, 0, 0.5));
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.contact-form h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff5f5f;
+}
+.contact-form h1{
+    font-weight: 800;
+    color: #000;
+    font-size: 50px;
+    line-height: 60px;
+
+}
+.contact-form form{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.contact-form form input , textarea{
+    border: none;
+    outline: none;
+    padding: 5px 20px ;
+    font-size: 18px;
+    background: rgb(224, 224, 224);
+    width: 80%;
+    border-radius: 23px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.699); 
+    resize: vertical;
+}
+.contact-form form textarea{
+    height:200px;
+}
+.contact-form form button{
+    padding: 7px 20px ;
+    background: #f34646;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.452);
+    margin-left: 20px;
+    cursor: pointer;
+}
+.contact-form form button:hover{
+    transform: scale(0.9);
+}
+@media (max-width:1000px) {
+    .contact-form{
+        width: 60%;
+    }
+    .map {
+        width: 40%;
+    }
+}
+@media (max-width:850px) {
+    .contact-form form input , textarea{
+        width: 100%;
+    }
+    
+}
+@media (max-width:750px) {
+    .contact-form form input , textarea{
+        width: 80%;
+    }
+    .map{
+        display: none;
+
+    }
+    .contact-form{
+        width: 100%;
+    }
+    
+}
+@media (max-width:500px) {
+    .contact-form form input , textarea{
+        width: 100%;
+    }
+   
+    
+}
+@media (max-width:400px) {
+    .contact-form h1{
+        font-size: 40px;
+    }
+    .contact-con{
+        padding: 0;
+    }
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
