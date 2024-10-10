@@ -7,8 +7,8 @@
     font-family: "Poppins", "Montserrat";
     text-transform: capitalize;
     transition: all 0.5s;
-
-
+    
+   
 }
 
 *,
@@ -106,6 +106,8 @@ nav li:hover {
        width: 200px;
        opacity: 1;
        
+
+       
 }
 
 .search-box{
@@ -159,7 +161,11 @@ nav li:hover {
 }
 
 /* =========================== nav end ============ */
-
+body{
+    width: 100%;
+    overflow-x: hidden;
+    
+}
 
 
 
