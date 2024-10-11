@@ -473,7 +473,7 @@ width: 500px;
    
 }
 .product:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 .product img{
     width: 100%;
